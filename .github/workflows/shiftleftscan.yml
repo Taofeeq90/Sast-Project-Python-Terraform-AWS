@@ -39,7 +39,7 @@ jobs:
         # type: credscan,java
         # type: python
     - name: Upload scan reports
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v3.1.0
       with:
         name: shiftleft-scan-reports
         path: reports
