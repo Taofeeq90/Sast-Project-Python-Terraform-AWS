@@ -13,13 +13,13 @@ updates:
       interval: "daily"
 
   # Maintain dependencies for npm
-  - package-ecosystem: "npm"
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
 
   # Maintain dependencies for Composer
-  - package-ecosystem: "composer"
+  - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       interval: "daily"
